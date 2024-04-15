@@ -13,11 +13,13 @@ import UpdateProfile from './Components/UpdateProfile/UpdateProfile';
 import UserProfile from './Components/UserProfile/UserProfile';
 import CardEstate from './Components/Estate/CardEstate';
 import Luxury from './Components/LatestLuxury/Luxury';
+import NotFound from './Pages/NotFound';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <NotFound></NotFound>,
     children: [
       {
         path: "/",
