@@ -8,7 +8,7 @@ const CardDesign = ({ luxury }) => {
             <div className=" bg-base-100 shadow-lg">
                 <figure><img className='w-full rounded-lg h-64' src={image_url} alt="Movie" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">{estate_title}</h2>
+                    <h2 className="card-title text-[#1E0342]">{estate_title}</h2>
                     <p>{description}</p>
                     <p>Price: {price}</p>
                     <div className="card-actions justify-end">

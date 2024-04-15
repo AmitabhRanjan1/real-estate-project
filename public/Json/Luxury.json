@@ -9,7 +9,12 @@
       "area": "6000 sq ft",
       "location": "Malibu, California",
       "facilities": ["Infinity Pool", "Private Beach Access", "Spa", "Home Theater"],
-      "image_url": "https://i.ibb.co/PCmqjDS/imagereader.webp"
+      "image_url": "https://i.ibb.co/PCmqjDS/imagereader.webp",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "garage": 3,
+      "year_built": 2014,
+      "details": "Perched along the pristine coastline of Malibu, this oceanfront villa offers an unparalleled luxury living experience. With six spacious bedrooms, seven bathrooms, and a three-car garage, this stunning property epitomizes coastal elegance. The infinity pool and private beach access provide the perfect retreat for relaxation, while the spa and home theater offer endless entertainment possibilities. Built in 2014, this modern masterpiece combines exquisite design with breathtaking views, making it the ultimate luxury retreat."
     },
     {
       "id": 2,
@@ -21,7 +26,12 @@
       "area": "8000 sq ft",
       "location": "Aspen, Colorado",
       "facilities": ["Ski-In/Ski-Out Access", "Indoor Pool", "Wine Cellar", "Fitness Center"],
-      "image_url": "https://i.ibb.co/THB1xq1/download-1.jpg"
+      "image_url": "https://i.ibb.co/THB1xq1/download-1.jpg",
+      "bedrooms": 8,
+      "bathrooms": 10,
+      "garage": 4,
+      "year_built": 2012,
+      "details": "Nestled amidst the scenic wilderness of Aspen, Colorado, this magnificent mountain retreat mansion offers the epitome of luxury living. With eight spacious bedrooms, ten bathrooms, and a four-car garage, this grand estate exudes opulence at every turn. Enjoy the convenience of ski-in/ski-out access, relax in the indoor pool, or unwind in the wine cellar and fitness center. Built in 2012, this sprawling mansion combines rustic charm with modern amenities, creating a truly extraordinary mountain escape."
     },
     {
       "id": 3,
@@ -33,7 +43,12 @@
       "area": "3500 sq ft",
       "location": "Manhattan, New York",
       "facilities": ["Private Terrace", "Gourmet Kitchen", "Home Automation System", "Concierge Service"],
-      "image_url": "https://i.ibb.co/XLGR9KC/download-8.jpg"
+      "image_url": "https://i.ibb.co/XLGR9KC/download-8.jpg",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "garage": 2,
+      "year_built": 2018,
+      "details": "Located in the heart of Manhattan, this stunning penthouse offers unparalleled city skyline views and luxury living. With four elegant bedrooms, five bathrooms, and a two-car garage, this exquisite residence boasts sophisticated design and modern amenities. Enjoy the private terrace, gourmet kitchen, and state-of-the-art home automation system, while the concierge service ensures every need is met. Built in 2018, this luxurious penthouse epitomizes Manhattan living at its finest."
     },
     {
       "id": 4,
@@ -45,7 +60,12 @@
       "area": "Entire Island",
       "location": "Bora Bora, French Polynesia",
       "facilities": ["Private Bungalows", "Helipad", "Marina", "Five-Star Dining"],
-      "image_url": "https://i.ibb.co/cgS5PVT/download-3.jpg"
+      "image_url": "https://i.ibb.co/cgS5PVT/download-3.jpg",
+      "bedrooms": null,
+      "bathrooms": null,
+      "garage": null,
+      "year_built": null,
+      "details": "Escape to paradise with this exclusive private island resort located in Bora Bora, French Polynesia. Spanning the entire island, this luxurious retreat offers lavish accommodations and pristine beaches. From private bungalows to a helipad and marina, every detail has been meticulously crafted for the ultimate guest experience. Indulge in five-star dining, water sports, and unparalleled relaxation in this secluded oasis."
     },
     {
       "id": 5,
@@ -57,7 +77,12 @@
       "area": "10000 sq ft",
       "location": "Provence, France",
       "facilities": ["Vineyard", "Helipad", "Tennis Court", "Library"],
-      "image_url": "https://i.ibb.co/P6063ms/download-4.jpg"
+      "image_url": "https://i.ibb.co/P6063ms/download-4.jpg",
+      "bedrooms": 12,
+      "bathrooms": 14,
+      "garage": 5,
+      "year_built": 2009,
+      "details": "Experience the epitome of French elegance with this exquisite chateau nestled in the picturesque countryside of Provence. With twelve luxurious bedrooms, fourteen bathrooms, and a five-car garage, this magnificent estate offers unparalleled sophistication and charm. Surrounded by vineyards, this idyllic retreat features a helipad, tennis court, and library, providing the perfect blend of luxury and tranquility. Built in 2009, this timeless chateau is a true masterpiece of Provencal architecture."
     },
     {
       "id": 6,
@@ -69,7 +94,12 @@
       "area": "5500 sq ft",
       "location": "Verbier, Switzerland",
       "facilities": ["Ski Room", "Sauna", "Cinema Room", "Wine Cellar"],
-      "image_url": "https://i.ibb.co/6D0MTx2/download-5.jpg"
+      "image_url": "https://i.ibb.co/6D0MTx2/download-5.jpg",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "garage": 2,
+      "year_built": 2016,
+      "details": "Embrace the alpine lifestyle with this luxurious ski chalet located in Verbier, Switzerland. With five stylish bedrooms, six bathrooms, and a two-car garage, this stunning retreat offers breathtaking alpine views and direct access to the slopes. Indulge in the ski room, sauna, and cinema room, or unwind in the wine cellar after a day on the mountain. Built in 2016, this exquisite chalet combines contemporary design with timeless mountain charm."
     },
     {
       "id": 7,
@@ -81,7 +111,12 @@
       "area": "12000 sq ft",
       "location": "Beverly Hills, California",
       "facilities": ["Pool House", "Gym", "Home Theater", "Gated Entry"],
-      "image_url": "https://i.ibb.co/184zgBK/download-6.jpg"
+      "image_url": "https://i.ibb.co/184zgBK/download-6.jpg",
+      "bedrooms": 10,
+      "bathrooms": 12,
+      "garage": 4,
+      "year_built": 2013,
+      "details": "Live the Hollywood dream with this grand mansion situated in the prestigious neighborhood of Beverly Hills. With ten luxurious bedrooms, twelve bathrooms, and a four-car garage, this palatial estate offers opulent living at its finest. Entertain guests in the pool house, work out in the gym, or enjoy movie nights in the home theater. With gated entry and manicured grounds, this Beverly Hills mansion provides privacy and security in an unrivaled location."
     },
     {
       "id": 8,
@@ -93,7 +128,12 @@
       "area": "7000 sq ft",
       "location": "Lake Como, Italy",
       "facilities": ["Boat Dock", "Infinity Pool", "Gardens", "Wine Cellar"],
-      "image_url": "https://i.ibb.co/2tYY4rD/images.jpg"
+      "image_url": "https://i.ibb.co/2tYY4rD/images.jpg",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "garage": 3,
+      "year_built": 2015,
+      "details": "Escape to the tranquil beauty of Lake Como with this opulent lakeside retreat in Italy. With seven luxurious bedrooms, eight bathrooms, and a three-car garage, this exquisite villa offers serenity and luxury amidst nature. Enjoy boating from the private dock, take a dip in the infinity pool, or stroll through the lush gardens. With a wine cellar for entertaining, this lakeside retreat is the perfect blend of elegance and relaxation. Built in 2015, this villa is a true sanctuary in one of Italy's most picturesque destinations."
     },
     {
       "id": 9,
@@ -105,7 +145,11 @@
       "area": "8000 sq ft",
       "location": "Santorini, Greece",
       "facilities": ["Infinity Pool", "Sun Terrace", "Chef's Kitchen", "Wine Cellar"],
-      "image_url": "https://i.ibb.co/1vs5h2h/download-7.jpg"
-    }
+      "image_url": "https://i.ibb.co/1vs5h2h/download-7.jpg",
+      "bedrooms": 9,
+      "bathrooms": 10,
+      "garage": 3,
+      "year_built": 2017,
+      "details": "Indulge in the ultimate luxury with this private villa overlooking the azure waters of Santorini. With nine luxurious bedrooms, ten bathrooms, and a three-car garage, this stunning villa offers unrivaled comfort and style. Relax by the infinity pool, soak up the sun on the sun terrace, or enjoy gourmet meals prepared in the chef's kitchen. With a wine cellar for connoisseurs, this villa is perfect for entertaining guests or simply enjoying the breathtaking views. Built in 2017, this Santorini villa is a true sanctuary in the heart of the Aegean Sea."
+    }    
   ]
-  
