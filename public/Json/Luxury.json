@@ -9,7 +9,7 @@
       "area": "6000 sq ft",
       "location": "Malibu, California",
       "facilities": ["Infinity Pool", "Private Beach Access", "Spa", "Home Theater"],
-      "image_url": "https://example.com/oceanfront_villa.jpg"
+      "image_url": "https://i.ibb.co/PCmqjDS/imagereader.webp"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "area": "8000 sq ft",
       "location": "Aspen, Colorado",
       "facilities": ["Ski-In/Ski-Out Access", "Indoor Pool", "Wine Cellar", "Fitness Center"],
-      "image_url": "https://example.com/mountain_retreat_mansion.jpg"
+      "image_url": "https://i.ibb.co/THB1xq1/download-1.jpg"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": "3500 sq ft",
       "location": "Manhattan, New York",
       "facilities": ["Private Terrace", "Gourmet Kitchen", "Home Automation System", "Concierge Service"],
-      "image_url": "https://example.com/luxury_penthouse.jpg"
+      "image_url": "https://i.ibb.co/XLGR9KC/download-8.jpg"
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "area": "Entire Island",
       "location": "Bora Bora, French Polynesia",
       "facilities": ["Private Bungalows", "Helipad", "Marina", "Five-Star Dining"],
-      "image_url": "https://example.com/island_resort.jpg"
+      "image_url": "https://i.ibb.co/cgS5PVT/download-3.jpg"
     },
     {
       "id": 5,
@@ -57,7 +57,7 @@
       "area": "10000 sq ft",
       "location": "Provence, France",
       "facilities": ["Vineyard", "Helipad", "Tennis Court", "Library"],
-      "image_url": "https://example.com/chateau_provence.jpg"
+      "image_url": "https://i.ibb.co/P6063ms/download-4.jpg"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "area": "5500 sq ft",
       "location": "Verbier, Switzerland",
       "facilities": ["Ski Room", "Sauna", "Cinema Room", "Wine Cellar"],
-      "image_url": "https://example.com/luxury_ski_chalet.jpg"
+      "image_url": "https://i.ibb.co/6D0MTx2/download-5.jpg"
     },
     {
       "id": 7,
@@ -81,7 +81,7 @@
       "area": "12000 sq ft",
       "location": "Beverly Hills, California",
       "facilities": ["Pool House", "Gym", "Home Theater", "Gated Entry"],
-      "image_url": "https://example.com/mansion_beverly_hills.jpg"
+      "image_url": "https://i.ibb.co/184zgBK/download-6.jpg"
     },
     {
       "id": 8,
@@ -93,7 +93,7 @@
       "area": "7000 sq ft",
       "location": "Lake Como, Italy",
       "facilities": ["Boat Dock", "Infinity Pool", "Gardens", "Wine Cellar"],
-      "image_url": "https://example.com/lakeside_retreat.jpg"
+      "image_url": "https://i.ibb.co/2tYY4rD/images.jpg"
     },
     {
       "id": 9,
@@ -105,19 +105,7 @@
       "area": "8000 sq ft",
       "location": "Santorini, Greece",
       "facilities": ["Infinity Pool", "Sun Terrace", "Chef's Kitchen", "Wine Cellar"],
-      "image_url": "https://example.com/villa_santorini.jpg"
-    },
-    {
-      "id": 10,
-      "estate_title": "Luxury Beachfront Estate",
-      "segment_name": "Luxury",
-      "description": "Luxurious beachfront estate with stunning ocean views and private beach access.",
-      "price": "$25,000,000",
-      "status": "sale",
-      "area": "15000 sq ft",
-      "location": "The Hamptons, New York",
-      "facilities": ["Private Beach", "Tennis Court", "Gym", "Guest House"],
-      "image_url": "https://example.com/beachfront_estate.jpg"
+      "image_url": "https://i.ibb.co/1vs5h2h/download-7.jpg"
     }
   ]
   
