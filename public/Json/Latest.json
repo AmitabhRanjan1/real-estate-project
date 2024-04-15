@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Modern Manhattan Penthouse",
+      "segment_name": "Latest",
+      "description": "Sleek and contemporary penthouse in the heart of Manhattan, featuring stunning skyline views and state-of-the-art amenities.",
+      "price": "$12,500,000",
+      "status": "sale",
+      "area": "4000 sq ft",
+      "location": "Manhattan, New York",
+      "facilities": ["Floor-to-Ceiling Windows", "Private Terrace", "Gourmet Kitchen", "Smart Home Technology"],
+      "image_url": "https://example.com/manhattan_penthouse.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Luxury Villa in Santorini",
+      "segment_name": "Latest",
+      "description": "Exquisite villa nestled on the cliffs of Santorini, offering breathtaking views of the Aegean Sea and unparalleled luxury living.",
+      "price": "$9,800,000",
+      "status": "sale",
+      "area": "6000 sq ft",
+      "location": "Santorini, Greece",
+      "facilities": ["Infinity Pool", "Sun Deck", "Private Beach Access", "Cave Spa"],
+      "image_url": "https://example.com/santorini_villa.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Contemporary Beachfront Estate",
+      "segment_name": "Latest",
+      "description": "Contemporary masterpiece located on the shores of Malibu, offering unparalleled beachfront living with stunning ocean views.",
+      "price": "$15,200,000",
+      "status": "sale",
+      "area": "8000 sq ft",
+      "location": "Malibu, California",
+      "facilities": ["Private Beach", "Infinity Pool", "Rooftop Terrace", "Home Theater"],
+      "image_url": "https://example.com/malibu_beachfront_estate.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Luxury Ski Chalet in Aspen",
+      "segment_name": "Latest",
+      "description": "Luxurious ski chalet nestled in the mountains of Aspen, offering ski-in/ski-out access and premium amenities for the ultimate alpine retreat.",
+      "price": "$7,500,000",
+      "status": "sale",
+      "area": "5500 sq ft",
+      "location": "Aspen, Colorado",
+      "facilities": ["Ski Room", "Sauna", "Hot Tub", "Home Theater"],
+      "image_url": "https://example.com/aspen_ski_chalet.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Private Island Retreat in the Bahamas",
+      "segment_name": "Latest",
+      "description": "Exclusive private island retreat in the Bahamas, offering unparalleled seclusion and luxury with pristine beaches and turquoise waters.",
+      "price": "$25,000,000",
+      "status": "sale",
+      "area": "Entire Island",
+      "location": "Bahamas",
+      "facilities": ["Private Villas", "Yacht Dock", "Helipad", "Tropical Gardens"],
+      "image_url": "https://example.com/bahamas_private_island.jpg"
+    }
+  ]
+  
