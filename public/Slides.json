@@ -1,15 +1,20 @@
 [
     {
-      "id": 1,
-      "img": "https://i.ibb.co/PCmqjDS/imagereader.webp"
+        "id": 1,
+        "img": "https://i.ibb.co/m6FD9gw/imagereader-2.webp",
+        "title": "Luxury Penthouse",
+        "description": "Stunning penthouse offering unparalleled city skyline views and luxury living."
     },
     {
-      "id": 2,
-      "img": "https://i.ibb.co/Khtr6Kc/imagereader-1.webp"
+        "id": 2,
+        "img": "https://i.ibb.co/Khtr6Kc/imagereader-1.webp",
+        "title": "Mountain Retreat Mansion",
+        "description": "Magnificent mountain retreat mansion nestled in the scenic wilderness."
     },
     {
-      "id": 3,
-      "img": "https://i.ibb.co/m6FD9gw/imagereader-2.webp"
+        "id": 3,
+        "img": "https://i.ibb.co/VYR8QQ8/imagereader-4.webp",
+        "title": "Oceanfront Villa",
+        "description": "Exquisite oceanfront villa with breathtaking views and luxurious amenities."
     }
-  ]
-  
+]
