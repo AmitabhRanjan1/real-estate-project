@@ -16,6 +16,7 @@ import Luxury from './Components/LatestLuxury/Luxury';
 import NotFound from './Pages/NotFound';
 import Contact from './Components/Contact/Contact';
 import Newsletter from './Components/Newsletter/Newsletter';
+import AuthProvider from './Components/AuthProvider/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} ></RouterProvider>
+    <AuthProvider>
+      <RouterProvider router={router} ></RouterProvider>
+    </AuthProvider>
   </React.StrictMode>,
 )
