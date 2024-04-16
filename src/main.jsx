@@ -15,6 +15,7 @@ import CardEstate from './Components/Estate/CardEstate';
 import Luxury from './Components/LatestLuxury/Luxury';
 import NotFound from './Pages/NotFound';
 import Contact from './Components/Contact/Contact';
+import Newsletter from './Components/Newsletter/Newsletter';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Luxury></Luxury>
+      },
+      {
+        path: "/newsletter",
+        element: <Newsletter></Newsletter>
       },
       {
         path: "/updateprofile",

@@ -1,14 +1,15 @@
 import CardEstate from "../Estate/CardEstate";
+import Newsletter from "../Newsletter/Newsletter";
 import Slider from "./Slider";
 
 
 const Home = () => {
     return (
         <>
-            <div className="">
+
                 <Slider></Slider>
-            </div>
             <CardEstate></CardEstate>
+            <Newsletter></Newsletter>
         </>
     );
 };

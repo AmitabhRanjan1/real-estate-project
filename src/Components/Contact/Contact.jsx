@@ -1,7 +1,6 @@
-
 const Contact = () => {
     return (
-        <div>
+        <>
             <div className="relative">
                 <img className='w-screen h-96' src="../../../public/images/contact.jpg" alt="" />
                 <div className="absolute top-20 left-1/4 md:top-16 md:left-1/3 lg:top-28 lg:left-1/3 lg:p-4 text-white p-6 ">
@@ -12,7 +11,7 @@ const Contact = () => {
                 <h1 className="text-2xl  text-sky-950 font-bold mt-2">Touch With Brightest Luxury</h1>
                 <p className="text-black content-center ">Elevate your communication experience with our exclusive contact page, <br /> designed for seamless interaction with our discerning clientele. Connect effortlessly for <br /> inquiries, assistance, or esteemed collaboration opportunities in the realm of luxury real estate.</p>
             </div>
-            <div className="mb-28 mt-16">
+            <div className="lg:mb-28 mb-16 lg:mt-16 mt-12">
                 <section className="py-6 dark:bg-gray-100 dark:text-gray-900">
                     <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                         <div className="py-6 md:py-0 md:px-6">
@@ -58,7 +57,7 @@ const Contact = () => {
                     </div>
                 </section>
             </div>
-        </div>
+        </>
     );
 };
 
