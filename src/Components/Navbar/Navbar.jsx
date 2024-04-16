@@ -17,11 +17,13 @@ const Navbar = () => {
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/estate"}>Estate</NavLink>
                         <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/latest-luxury"}>Latest in Luxury</NavLink>
+                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>Blog</NavLink>
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UpdateProfile</NavLink>
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>UserProfile</NavLink>
+                        <NavLink className={({ isActive }) =>
+                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>Contact</NavLink>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-[#0E46A3] font-bold lg:text-2xl">Brightest Luxury</a>
@@ -35,11 +37,13 @@ const Navbar = () => {
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/estate"}>Estate</NavLink>
                         <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/latest-luxury"}>Latest in Luxury</NavLink>
+                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>Blog</NavLink>
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UpdateProfile</NavLink>
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>UserProfile</NavLink>
+                        <NavLink className={({ isActive }) =>
+                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>Contact</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-1 lg:gap-3 md:gap-3">

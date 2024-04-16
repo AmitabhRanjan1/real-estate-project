@@ -14,6 +14,7 @@ import UserProfile from './Components/UserProfile/UserProfile';
 import CardEstate from './Components/Estate/CardEstate';
 import Luxury from './Components/LatestLuxury/Luxury';
 import NotFound from './Pages/NotFound';
+import Contact from './Components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
         element: <CardEstate></CardEstate>
       },
       {
-        path: "/latest-luxury",
+        path: "/blog",
         element: <Luxury></Luxury>
       },
       {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/userprofile",
         element: <UserProfile></UserProfile>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/register",

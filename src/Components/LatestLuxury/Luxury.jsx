@@ -1,8 +1,9 @@
+import Slider from "../Home/Slider";
 
 const Luxury = () => {
     return (
         <div>
-            <h1>Luxury!</h1>
+            <Slider></Slider>
         </div>
     );
 };
