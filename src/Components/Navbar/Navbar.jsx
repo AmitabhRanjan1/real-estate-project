@@ -78,9 +78,7 @@ const Navbar = () => {
                                 <NavLink className="btn text-white  lg:font-bold bg-[#0E46A3]" to={"/login"}>LogIn</NavLink>
                         }
                     </div>
-                    <NavLink className="lg:btn hidden text-white  sm:hidden visible lg:font-bold font-normal bg-[#0E46A3]" to={"/register"}>Register</NavLink>
-
-
+                    <NavLink className="lg:btn  text-white lg:font-bold font-normal bg-[#0E46A3]" to={"/register"}>Register</NavLink>
                 </div>
             </div>
         </div >
