@@ -1,5 +1,6 @@
 import { useForm } from "react-hook-form";
 import UseAuth from "../../Hooks/UseAuth";
+import { useNavigate } from "react-router-dom";
 // import { useState } from "react";
 
 
@@ -13,22 +14,28 @@ const Register = () => {
         formState: { errors },
     } = useForm();
 
+    // navigation systems
+    const navigate = useNavigate();
+    const from = "/";
+
     const onSubmit = (data) => {
-        const { email, password,} = data;
-
-
+        const { email, password, image, fullName } = data;
+        
+        //create user and update profile
         createUser(email, password)
-            .then(result => {
-                console.log(result);
-            });
-      
+            .then(() => {
+                updateUserProfile(fullName, image)
+                    .then(() => {
+                          navigate(from);
+        });
+      });
     };
 
     return (
         <div>
             <div className="w-full max-w-md mx-auto my-12 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
                 <h1 className="text-2xl font-bold text-center">Register</h1>
-                <form onSubmit={handleSubmit(onSubmit)} noValidate="" action="" className="space-y-6">
+                <form  onSubmit={handleSubmit(onSubmit)} noValidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
                         <label htmlFor="username" className="block dark:text-gray-600">Name</label>
                         <input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-sky-950"
