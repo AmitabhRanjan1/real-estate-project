@@ -7,7 +7,7 @@ const CardEstate = () => {
     console.log(estate);
 
     useEffect(() => {
-        fetch('../../../public/Json/Luxury.json')
+        fetch('Luxury.json')
             .then(res => res.json())
             .then(data => setEstate(data))
     }, [])
