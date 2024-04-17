@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import UseAuth from "../../Hooks/UseAuth";
 import SocialLogIn from "../../SocialLogIn/SocialLogIn";
+import ForgetPass from "../ForgetPassword/ForgetPass";
 
 const Login = () => {
     const { signInUser } = UseAuth
@@ -46,9 +47,7 @@ const Login = () => {
                         {errors.password && (
                             <span className="text-red-500">This field is required</span>
                         )}
-                        <div className="flex justify-end text-xs dark:text-gray-600">
-                            <a rel="noopener noreferrer" href="#">Forgot Password?</a>
-                        </div>
+                       <ForgetPass></ForgetPass>
 
                     </div>
                     <button className="block w-full p-3 text-center rounded-sm dark:text-sky-50 dark:bg-sky-950">Sign in</button>
