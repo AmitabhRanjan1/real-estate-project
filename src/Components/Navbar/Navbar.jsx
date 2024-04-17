@@ -40,13 +40,10 @@ const Navbar = () => {
                                 isActive ? 'text-[#0E46A3]' : 'text-black'}
                             to={"/"}>HOME</NavLink>
                         <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/buy"}>BUY</NavLink>
+                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/buy"}>LUXURY</NavLink>
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>BLOG</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UPDATEPROFILE</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>USERPROFILE</NavLink>
+                        
                         <NavLink className={({ isActive }) =>
                             isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>CONTACT</NavLink>
                     </ul>
@@ -78,7 +75,7 @@ const Navbar = () => {
                                 <NavLink className="btn text-white  lg:font-bold bg-[#0E46A3]" to={"/login"}>LogIn</NavLink>
                         }
                     </div>
-                    <NavLink className="lg:btn  text-white lg:font-bold font-normal bg-[#0E46A3]" to={"/register"}>Register</NavLink>
+                    <NavLink className="btn text-white  lg:font-bold bg-[#0E46A3]" to={"/register"}>Register</NavLink>
                 </div>
             </div>
         </div >
