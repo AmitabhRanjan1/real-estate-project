@@ -1,6 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import UseAuth from "../../Hooks/UseAuth";
 
 const Navbar = () => {
+
+    const { logout, user } = UseAuth();
+    console.log(user);
+
     return (
         <div>
             <div className="navbar bg-base-100 shadow-lg">
@@ -10,20 +15,20 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <NavLink
-                            className={({ isActive }) =>
-                                isActive ? 'text-[#0E46A3]' : 'text-black'}
-                            to={"/"}>Home</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/buy"}>Buy</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>Blog</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UpdateProfile</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>UserProfile</NavLink>
-                        <NavLink className={({ isActive }) =>
-                            isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>Contact</NavLink>
+                            <NavLink
+                                className={({ isActive }) =>
+                                    isActive ? 'text-[#0E46A3]' : 'text-black'}
+                                to={"/"}>Home</NavLink>
+                            <NavLink className={({ isActive }) =>
+                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/buy"}>Buy</NavLink>
+                            <NavLink className={({ isActive }) =>
+                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>Blog</NavLink>
+                            <NavLink className={({ isActive }) =>
+                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UpdateProfile</NavLink>
+                            <NavLink className={({ isActive }) =>
+                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>UserProfile</NavLink>
+                            <NavLink className={({ isActive }) =>
+                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>Contact</NavLink>
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-[#0E46A3] font-bold lg:text-2xl">Brightest Luxury</a>
@@ -47,11 +52,40 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-1 lg:gap-3 md:gap-3">
+                    <div>
+
+                        {
+                            user ? <div className="dropdown dropdown-end">
+                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                    <div className="w-10 rounded-full">
+                                        <img src={user?.photoURL || "https://ibb.co/HGqYC8M"} />
+                                    </div>
+                                </label>
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                    <li>
+                                        <button className="btn btn-sm  btn-ghost">{user?.displayName || 'user name not found'}</button>
+
+                                    </li>
+                                    <li>
+                                        <button
+                                            onClick={logout}
+                                            className="btn btn-sm  btn-ghost">Logout</button>
+
+                                    </li>
+                                </ul>
+                            </div>
+                                :
+                                <Link to='/login'>
+                                    <button className="btn btn-sm  btn-ghost">Login</button>
+                                </Link>
+                        }
+                    </div>
                     <NavLink className="btn text-white lg:font-bold bg-[#0E46A3]" to={"/register"}>Register</NavLink>
-                    <NavLink className="lg:btn md:btn hidden lg:text-base lg:font-bold" to={"/login"}>LogIn</NavLink>
+
+
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

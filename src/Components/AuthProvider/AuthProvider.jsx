@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup,GithubAuthProvider } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, GithubAuthProvider, signOut } from "firebase/auth";
 import auth from "../../Firebase/Firebase.init";
 import PropTypes from 'prop-types'
 
@@ -41,6 +41,14 @@ const AuthProvider = ({ children }) => {
     };
 
 
+    //logout
+    const logout = () => {
+        setUser(null);
+        signOut(auth);
+    };
+
+
+
     useEffect(() => {
         onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -51,10 +59,13 @@ const AuthProvider = ({ children }) => {
 
 
     const allvalues = {
+       
         createUser,
         signInUser,
         googleLogin,
-        githubLogin
+        githubLogin,
+        logout,
+        user
     };
     return (
         <AuthContext.Provider value={allvalues}>
