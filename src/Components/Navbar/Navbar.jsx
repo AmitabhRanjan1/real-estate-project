@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import UseAuth from "../../Hooks/UseAuth";
 
 const Navbar = () => {
@@ -7,8 +7,8 @@ const Navbar = () => {
     console.log(user);
 
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-lg">
+        <div className="z-50">
+            <div className="navbar z-10 bg-base-100 shadow-lg">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -75,12 +75,10 @@ const Navbar = () => {
                                 </ul>
                             </div>
                                 :
-                                <Link to='/login'>
-                                    <button className="btn btn-sm  btn-ghost">Login</button>
-                                </Link>
+                                <NavLink className="btn text-white  lg:font-bold bg-[#0E46A3]" to={"/login"}>LogIn</NavLink>
                         }
                     </div>
-                    <NavLink className="btn text-white lg:font-bold bg-[#0E46A3]" to={"/register"}>Register</NavLink>
+                    <NavLink className="btn text-white  sm:hidden  lg:font-bold font-normal bg-[#0E46A3]" to={"/register"}>Register</NavLink>
 
 
                 </div>

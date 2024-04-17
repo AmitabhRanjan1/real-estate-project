@@ -27,8 +27,8 @@ const Login = () => {
 
 
     return (
-        <div>
-            <div className="w-full max-w-md mx-auto my-12 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
+        <div className="z-50">
+            <div className="w-full  max-w-md mx-auto my-12 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
                 <h1 className="text-2xl font-bold text-center">Login</h1>
                 <form onSubmit={handleSubmit(onSubmit)} noValidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
@@ -70,3 +70,4 @@ const Login = () => {
 };
 
 export default Login;
+

@@ -17,6 +17,8 @@ import NotFound from './Pages/NotFound';
 import Contact from './Components/Contact/Contact';
 import Newsletter from './Components/Newsletter/Newsletter';
 import AuthProvider from './Components/AuthProvider/AuthProvider';
+import CardDetails from './Components/Estate/CardDetails';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,12 @@ const router = createBrowserRouter([
       {
         path: "/buy",
         element: <CardEstate></CardEstate>
+      },
+      {
+        path: "/buy/details/1",
+        element: <PrivateRoute>
+          <CardDetails></CardDetails>
+        </PrivateRoute>
       },
       {
         path: "/blog",
