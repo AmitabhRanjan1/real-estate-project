@@ -1,10 +1,9 @@
-import { useContext } from "react";
-import { AuthContext } from "../AuthProvider/AuthProvider";
 import { useForm } from "react-hook-form";
+import UseAuth from "../../Hooks/UseAuth";
 
 
 const Register = () => {
-    const { createUser } = useContext(AuthContext)
+    const { createUser } = UseAuth
 
     const {
         register,
@@ -13,8 +12,14 @@ const Register = () => {
     } = useForm();
 
     const onSubmit = (data) => {
-        console.log(data);
-    }
+        const { email, password,} = data;
+
+
+        createUser(email, password)
+            .then(result => {
+                console.log(result);
+            });
+    };
 
     return (
         <div>
@@ -40,7 +45,7 @@ const Register = () => {
                     </div>
                     <div className="space-y-1 text-sm">
                         <label htmlFor="photo_url" className="block dark:text-gray-600">Photo Url</label>
-                        <input type="text" name="photo_url" id="photo_url" placeholder="photo_url" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-sky-950"/>                       
+                        <input type="text" name="photo_url" id="photo_url" placeholder="photo_url" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-sky-950" />
                     </div>
 
                     <div className="space-y-1 text-sm">
