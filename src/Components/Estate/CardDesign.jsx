@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 const CardDesign = ({ luxury }) => {
-    const { id, estate_title, description, price,
+    const {  estate_title, description, price,
         image_url} = luxury;
     // console.log(id);
     return (
         <div>
-        <Link to={`/buy/details/${id}`}>
+        <Link to={`/buy/details/property`}>
             <div className=" bg-base-100 shadow-lg">
                 <figure><img className='w-full rounded-lg h-64' src={image_url} alt="Movie" /></figure>
                 <div className="card-body">

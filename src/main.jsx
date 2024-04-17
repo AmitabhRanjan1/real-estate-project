@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         element: <CardEstate></CardEstate>
       },
       {
-        path: "/buy/details/1",
+        path: "/buy/details/property",
         element: <PrivateRoute>
           <CardDetails></CardDetails>
         </PrivateRoute>

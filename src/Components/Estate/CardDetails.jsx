@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Gallary from "../../Gallary/Gallary";
 
 const CardDetails = () => {
     const { id } = useParams();
@@ -36,6 +37,7 @@ const CardDetails = () => {
                             <span>6 min ago</span>
                         </div>
                     </div>
+                    <Gallary></Gallary>
                     <div className="space-y-2">
                         <a rel="noopener noreferrer" href="#" className="block">
                             <h3 className="text-xl font-semibold dark:text-violet-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
