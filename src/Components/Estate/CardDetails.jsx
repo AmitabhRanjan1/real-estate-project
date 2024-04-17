@@ -7,11 +7,9 @@ const CardDetails = () => {
     console.log(estate);
 
     useEffect(() => {
-        // Fetch estate details based on ID
-        fetch(`/public/Json/Luxury.json`)
+        fetch("Luxury.json")
             .then(res => res.json())
             .then(data => {
-                // Find the estate with the matching ID
                 const selectedEstate = data.find(item => item.id === parseInt(id));
                 if (selectedEstate) {
                     setEstate(selectedEstate);
