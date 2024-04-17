@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const Register = () => {
-    const { createUser } = UseAuth
+    const { createUser,updateUserProfile  } = UseAuth
     // const [error, setError] = useState('')
 
     const {
@@ -20,8 +20,6 @@ const Register = () => {
 
     const onSubmit = (data) => {
         const { email, password, image, fullName } = data;
-        
-        //create user and update profile
         createUser(email, password)
             .then(() => {
                 updateUserProfile(fullName, image)
