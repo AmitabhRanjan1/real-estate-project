@@ -1,8 +1,15 @@
-# React + Vite
+Website Name : Brightest Luxury
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link : https://brightest-luxury.web.app/
 
-Currently, two official plugins are available:
+5 bulet poin about this "Brightest Luxury" website:
+- Easy to use: The website is simple and easy to navigate.
+- Works on all devices: It looks good and works well on computers, tablets, and phones.
+- Keeps your info safe: Your personal information is protected.
+- Log in with social media: You can use your social media accounts to sign in.
+- Forgot your password? No problem: You can easily reset it if you forget.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm pakage:
+- React-leaflet,
+- React Hook form,
+- Swiper slider
