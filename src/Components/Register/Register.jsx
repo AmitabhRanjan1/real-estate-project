@@ -18,8 +18,28 @@ const Register = () => {
     const navigate = useNavigate();
     const from = "/";
 
+    const validatePassword = (password) => {
+        if (password.length < 6) {
+            return "Password must be at least 6 characters long";
+        }
+        if (!/[A-Z]/.test(password)) {
+            return "Password must contain at least one uppercase letter";
+        }
+        if (!/[a-z]/.test(password)) {
+            return "Password must contain at least one lowercase letter";
+        }
+        return true;
+    };
+
     const onSubmit = (data) => {
         const { email, password, image, fullName } = data;
+        
+        const passwordValidation = validatePassword(password);
+        if (passwordValidation !== true) {
+            console.log(passwordValidation);
+            return;
+        }
+
         createUser(email, password)
             .then(() => {
                 updateUserProfile(fullName, image)
