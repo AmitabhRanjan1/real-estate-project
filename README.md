@@ -10,7 +10,8 @@ Live Link : https://brightest-luxury.web.app/
 - Forgot your password? No problem: You can easily reset it if you forget.
 
 npm pakage:
-. AOS Package,
+
+- AOS Package,
 - React-leaflet,
 - React Hook form,
 - Swiper slider
