@@ -34,7 +34,7 @@ const UpdateProfile = () => {
             </div>
             <div className="space-y-2 text-center m-5 lg:m-16">
                 <h1 className="text-3xl font-bold text-slate-950">
-                    Write Your Blog Here
+                    Write Your Feedback Here
                 </h1>
                 <p className="lg:text-xl mb-10 md:text-lg sm:text-sm">Experience luxury redefined. </p>
                 <div className="flex flex-col lg:flex-row  border-2 border-dashed rounded-md dark:border-gray-300 dark:text-gray-600 dark:bg-gray-100">
@@ -46,7 +46,9 @@ const UpdateProfile = () => {
                         </div>
 
                     </fieldset>
+
                 </div>
+                <button type="button" className="btn  text-white  lg:font-bold bg-[#0E46A3]">Upload</button>
             </div>
             <section className="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
 
