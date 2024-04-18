@@ -1,4 +1,7 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Luxury = () => {
     return (
@@ -7,7 +10,7 @@ const Luxury = () => {
                 <section className="dark:bg-gray-100 dark:text-gray-800">
                     <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
                         <a rel="noopener noreferrer" href="#" className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
-                            <img src="download (10).jpg" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
+                            <img data-aos="zoom-in" data-aos-duration="2000" src="download (10).jpg" alt="" className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500" />
                             <div className="p-6 space-y-2 lg:col-span-5">
                                 <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Unveiling the Splendor of Santorini</h3>
                                 <span className="text-xs dark:text-gray-600">April 15, 2024</span>
@@ -16,7 +19,7 @@ const Luxury = () => {
                         </a>
                         <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog2.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog2.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">The Extravagance of Aspen</h3>
                                     <span className="text-xs dark:text-gray-600">April 20, 2024</span>
@@ -24,7 +27,7 @@ const Luxury = () => {
                                 </div>
                             </a>
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog3.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog3.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Exploring Manhattan's Elite Enclaves</h3>
                                     <span className="text-xs dark:text-gray-600">January 22, 2021</span>
@@ -32,7 +35,7 @@ const Luxury = () => {
                                 </div>
                             </a>
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog4.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog4.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Luxuriating in the South of France</h3>
                                     <span className="text-xs dark:text-gray-600">January 23, 2021</span>
@@ -40,7 +43,7 @@ const Luxury = () => {
                                 </div>
                             </a>
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog5.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog5.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Luxe Living in Bora Bora</h3>
                                     <span className="text-xs dark:text-gray-600">May 5, 2024</span>
@@ -48,7 +51,7 @@ const Luxury = () => {
                                 </div>
                             </a>
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog6.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog6.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">The Majesty of Milan</h3>
                                     <span className="text-xs dark:text-gray-600">January 25, 2021</span>
@@ -56,7 +59,7 @@ const Luxury = () => {
                                 </div>
                             </a>
                             <a rel="noopener noreferrer" href="#" className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-                                <img role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog7.jpg" />
+                                <img data-aos="zoom-in" data-aos-duration="2000" role="presentation" className="object-cover w-full rounded h-44 dark:bg-gray-500" src="blog7.jpg" />
                                 <div className="p-6 space-y-2">
                                     <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">Enchantment in the Maldives</h3>
                                     <span className="text-xs dark:text-gray-600">January 26, 2021</span>
