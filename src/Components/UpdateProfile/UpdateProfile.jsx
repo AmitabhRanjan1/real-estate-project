@@ -1,7 +1,7 @@
 const UpdateProfile = () => {
     return (
         <div>
-            <div className="flex flex-col justify-center  p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
+            <div className="flex flex-col justify-center  p-4 shadow-md rounded-xl sm:px-6 dark:bg-gray-50 dark:text-gray-800">
                 <img src="https://source.unsplash.com/150x150/?portrait?3" alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
                 <div className="space-y-4 text-center divide-y dark:divide-gray-300">
                     <div className="my-2 space-y-1">
@@ -32,33 +32,54 @@ const UpdateProfile = () => {
                     </div>
                 </div>
             </div>
+            <div className="space-y-2 text-center m-5 lg:m-16">
+                <h1 className="text-3xl font-bold text-slate-950">
+                    Write Your Blog Here
+                </h1>
+                <p className="lg:text-xl mb-10 md:text-lg sm:text-sm">Experience luxury redefined. </p>
+                <div className="flex flex-col lg:flex-row  border-2 border-dashed rounded-md dark:border-gray-300 dark:text-gray-600 dark:bg-gray-100">
+                    <input type="text" placeholder="Type here" className="input input-ghost w-full h-28 " />
+                    <fieldset className=" space-y-1 dark:text-gray-800">
+
+                        <div className="flex">
+                            <input type="file" name="files" id="files" className="px-2 py-4 " />
+                        </div>
+
+                    </fieldset>
+                </div>
+            </div>
             <section className="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
+
                 <div className="container mx-auto space-y-12">
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                        <img src="https://source.unsplash.com/640x480/?1" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+                        <img src="https://source.unsplash.com/640x480/?1" alt="" className="h-80 dark:bg-gray-500 aspect-video my-auto" />
                         <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
-                            <span className="text-xs uppercase dark:text-gray-600">Join, it's free</span>
-                            <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
-                            <p className="my-6 dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
+
+                            <h3 className="text-3xl font-bold">Navigating the Exquisite Realm of High-End Properties</h3>
+                            <p className="my-6 dark:text-gray-600">This captivating blog delves into the fascinating world of luxury real estate, where opulence meets architectural marvels and unparalleled extravagance. We explore the defining characteristics of luxury properties, from breathtaking waterfront estates and sprawling mansions to sleek urban penthouses and serene countryside retreats. Through stunning visuals and immersive storytelling, we showcase iconic landmarks and prestigious neighborhoods known for their exclusive allure and prestigious clientele.Moreover, we delve into the unique features and amenities that define luxury living, such as infinity pools with panoramic views, private home theaters, state-of-the-art smart home technology, and lavish spa retreats. We also discuss the growing trend of sustainable luxury, where eco-friendly design principles and energy-efficient features are seamlessly integrated into upscale residences.</p>
+                            <button type="button" className="btn text-white  lg:font-bold bg-[#0E46A3]">Action</button>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-                        <img src="https://source.unsplash.com/640x480/?2" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+                        <img src="https://source.unsplash.com/640x480/?2" alt="" className="h-80 dark:bg-gray-500 aspect-video my-auto" />
                         <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
-                            <span className="text-xs uppercase dark:text-gray-600">Join, it's free</span>
-                            <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
-                            <p className="my-6 dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
+
+                            <h3 className="text-3xl font-bold"> Elevating Properties to Extraordinary Heights</h3>
+                            <p className="my-6 dark:text-gray-600"> In this blog, we explore the transformative power of luxury home staging in capturing the essence of upscale living and maximizing the appeal of high-end properties. We delve into the meticulous attention to detail and creative vision required to curate immersive experiences that resonate with discerning buyers. Through real-life examples and expert insights, we showcase how strategic staging techniques can elevate the perceived value of luxury properties, highlighting their unique features and lifestyle amenities.
+
+                                Furthermore, we discuss the importance of creating cohesive design narratives that evoke a sense of luxury and sophistication, from selecting premium furnishings and artwork to optimizing spatial layouts and enhancing natural light. We also explore the psychology behind luxury home staging, emphasizing the role of emotional connections and aspirational lifestyles in influencing purchasing decisions.</p>
+                            <button type="button" className="btn text-white  lg:font-bold bg-[#0E46A3]">Action</button>
                         </div>
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-                        <img src="https://source.unsplash.com/640x480/?3" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+                        <img src="https://source.unsplash.com/640x480/?3" alt="" className="h-80 dark:bg-gray-500 aspect-video my-auto" />
                         <div className="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
-                            <span className="text-xs uppercase dark:text-gray-600">Join, it's free</span>
-                            <h3 className="text-3xl font-bold">We're not reinventing the wheel</h3>
-                            <p className="my-6 dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.</p>
-                            <button type="button" className="self-start">Action</button>
+
+                            <h3 className="text-3xl font-bold">Luxury Real Estate Investment: Navigating the Path to Prosperity</h3>
+                            <p className="my-6 dark:text-gray-600"> In this insightful blog, we explore the allure of luxury real estate investment as a lucrative wealth-building strategy and a gateway to unparalleled lifestyle opportunities. We delve into the key considerations and investment principles that distinguish luxury real estate from traditional property investments, from market dynamics and asset appreciation potential to risk management and portfolio diversification strategies.
+
+                                Furthermore, we examine the unique advantages of investing in luxury properties, including the ability to generate passive income through high rental yields, capitalize on tax benefits and appreciation potential, and access exclusive amenities and lifestyle perks. We also discuss the role of luxury real estate in wealth preservation and legacy planning, serving as tangible assets that withstand market fluctuations and preserve capital over the long term.</p>
+                            <button type="button" className="btn text-white  lg:font-bold bg-[#0E46A3]">Action</button>
                         </div>
                     </div>
                 </div>

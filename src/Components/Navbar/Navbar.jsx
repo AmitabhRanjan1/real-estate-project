@@ -25,8 +25,7 @@ const Navbar = () => {
                                 isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/blog"}>Blog</NavLink>
                             <NavLink className={({ isActive }) =>
                                 isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/updateprofile"}>UpdateProfile</NavLink>
-                            <NavLink className={({ isActive }) =>
-                                isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/userprofile"}>UserProfile</NavLink>
+                            
                             <NavLink className={({ isActive }) =>
                                 isActive ? 'text-[#0E46A3]' : 'text-black'} to={"/contact"}>Contact</NavLink>
                         </ul>

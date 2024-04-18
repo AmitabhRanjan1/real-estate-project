@@ -2,7 +2,7 @@ const Contact = () => {
     return (
         <>
             <div className="relative">
-                <img className='w-screen h-96' src="../../../public/images/contact.jpg" alt="" />
+                <img className='w-screen h-96' src="contact.jpg" alt="" />
                 <div className="absolute top-20 left-1/4 md:top-16 md:left-1/3 lg:top-28 lg:left-1/3 lg:p-4 text-white p-6 ">
                     <h2 className="text-4xl md:text-6xl lg:text-8xl text-white ">Contact</h2>
                 </div>
