@@ -7,7 +7,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 const Register = () => {
     const { createUser, updateUserProfile } = UseAuth
-    const [error, setError] = useState('')
+    // const [error, setError] = useState('')
     const [showPassword, setShowPassword] = useState(false);
 
     const {

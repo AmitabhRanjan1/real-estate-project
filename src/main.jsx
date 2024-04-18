@@ -19,6 +19,7 @@ import Newsletter from './Components/Newsletter/Newsletter';
 import AuthProvider from './Components/AuthProvider/AuthProvider';
 import CardDetails from './Components/Estate/CardDetails';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Location from './Components/Map/Location';
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>
+      },
+      {
+        path: "/location",
+        element: <Location></Location>
       },
     ]
   },
