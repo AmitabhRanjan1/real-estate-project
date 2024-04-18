@@ -1,12 +1,13 @@
 import { useForm } from "react-hook-form";
 import UseAuth from "../../Hooks/UseAuth";
 import { useNavigate } from "react-router-dom";
-// import { useState } from "react";
-
+import { useState } from "react";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Register = () => {
-    const { createUser,updateUserProfile  } = UseAuth
+    const { createUser, updateUserProfile } = UseAuth
     // const [error, setError] = useState('')
+    const [showPassword, setShowPassword] = useState(false);
 
     const {
         register,
@@ -33,7 +34,7 @@ const Register = () => {
 
     const onSubmit = (data) => {
         const { email, password, image, fullName } = data;
-        
+
         const passwordValidation = validatePassword(password);
         if (passwordValidation !== true) {
             console.log(passwordValidation);
@@ -44,16 +45,16 @@ const Register = () => {
             .then(() => {
                 updateUserProfile(fullName, image)
                     .then(() => {
-                          navigate(from);
-        });
-      });
+                        navigate(from);
+                    });
+            });
     };
 
     return (
         <div>
             <div className="w-full max-w-md mx-auto my-12 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
                 <h1 className="text-2xl font-bold text-center">Register</h1>
-                <form  onSubmit={handleSubmit(onSubmit)} noValidate="" action="" className="space-y-6">
+                <form onSubmit={handleSubmit(onSubmit)} noValidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
                         <label htmlFor="username" className="block dark:text-gray-600">Name</label>
                         <input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-sky-950"
@@ -76,10 +77,17 @@ const Register = () => {
                         <input type="text" name="photo_url" id="photo_url" placeholder="photo_url" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-sky-950" />
                     </div>
 
-                    <div className="space-y-1 text-sm">
+                    <div className="space-y-1 text-sm relative">
                         <label htmlFor="password" className="block dark:text-gray-600">Password</label>
-                        <input type="password" name="password" id="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-[#1E0342]"
-                            {...register("password", { required: true })} />
+                        <input type={showPassword ? "text" : "password"} name="password" id="password" placeholder="Password" className="w-full px-4 py-2 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-[#1E0342]"
+                            {...register("password", { required: true })}
+                        />
+                    
+                        <span className="absolute top-7 right-2" onClick={() => setShowPassword(!showPassword)}>
+                            {
+                                showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                            }
+                        </span>
                         {errors.password && (
                             <span className="text-red-500">This field is required</span>
                         )}
