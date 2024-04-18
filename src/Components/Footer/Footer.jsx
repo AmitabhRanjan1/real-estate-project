@@ -7,7 +7,7 @@ const Footer = () => {
                     <div className="lg:w-1/3">
                         <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
                             <div className="flex items-center justify-center w-32 h-20 ">
-                                <img src="../../../public/logo.png" alt="" />
+                                <img src="logo.png" alt="" />
                             </div>
                             <span className="self-center text-2xl font-semibold text-[#0E46A3]">Brightest Luxury</span>
                         </a>
