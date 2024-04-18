@@ -3,10 +3,11 @@ import UseAuth from "../../Hooks/UseAuth";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import toast, { Toaster } from "react-hot-toast";
 
 const Register = () => {
     const { createUser, updateUserProfile } = UseAuth
-    // const [error, setError] = useState('')
+    const [error, setError] = useState('')
     const [showPassword, setShowPassword] = useState(false);
 
     const {
@@ -21,13 +22,17 @@ const Register = () => {
 
     const validatePassword = (password) => {
         if (password.length < 6) {
-            return "Password must be at least 6 characters long";
+            toast.error('Password must contain at least 6 character');
+            return ;
+
         }
         if (!/[A-Z]/.test(password)) {
-            return "Password must contain at least one uppercase letter";
+            toast.error('Password must contain at least one uppercase letter');
+            return ;
         }
         if (!/[a-z]/.test(password)) {
-            return "Password must contain at least one lowercase letter";
+            toast.error('Password must contain at least one lowercase letter');
+            return;
         }
         return true;
     };
@@ -92,7 +97,9 @@ const Register = () => {
                             <span className="text-red-500">This field is required</span>
                         )}
                     </div>
-                    <button className="block w-full p-3 text-center  dark:text-black font-semibold rounded-md dark:bg-[#9AC8CD]">Register</button>
+                    <button className="block w-full p-3 text-center  dark:text-black font-semibold rounded-md dark:bg-[#9AC8CD]">Register
+                    <Toaster></Toaster>
+                    </button>
                 </form>
                 <div className="flex items-center pt-4 space-x-1">
                     <div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
