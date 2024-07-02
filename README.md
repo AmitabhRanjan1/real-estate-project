@@ -25,7 +25,7 @@ npm pakage:
 - Swiper slider
   
 ## How to Run Locally
-1. Clone the repository: `git clone https://github.com/your-username/brightest-luxury.git`
+1. Clone the repository: `https://github.com/Idba1/real-estate-project.git`
 2. Navigate to the project directory: `cd brightest-luxury`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
