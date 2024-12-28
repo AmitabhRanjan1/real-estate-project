@@ -2,7 +2,7 @@
 
 Website Name : Brightest Luxury
 
-Live Link : https://brightest-luxury.web.app/
+Working Web App can be Found here=> Link : https://brightest-luxury.web.app/
 
 ## Project Overview
 Brightest Luxury is a website designed to provide a seamless experience for managing luxury properties. The project focuses on simplicity, user security, and responsive design, ensuring users can navigate easily and access their information securely across devices.
@@ -30,3 +30,12 @@ npm pakage:
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Firebase API KEY
+
+## Contact
+
+If you want to contact me, you can reach me through below handles.
+
+[![linkedin](linkedin.com/in/amitabh-ranjan-444a68263)
+[![GitHub](https://github.com/AmitabhRanjan1/Real-Estate)
+
+
