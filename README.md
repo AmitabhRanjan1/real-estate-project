@@ -1,11 +1,11 @@
-# Brightest Luxury
+# Luxury Rentals
 
-Website Name : Brightest Luxury
+Name of the Website : Brightest Luxury
 
-Live Link : https://brightest-luxury.web.app/
+Link of the Website : https://brightest-luxury.web.app/
 
 ## Project Overview
-Brightest Luxury is a website designed to provide a seamless experience for managing luxury properties. The project focuses on simplicity, user security, and responsive design, ensuring users can navigate easily and access their information securely across devices.
+Brightest Luxury offers exclusive high-end rentals, including mansions, luxury flats, and villas, located in prime locations. Catering to affluent individuals, including business executives, celebrities, and expatriates, these properties provide top-tier amenities like private pools, home theaters, and concierge services. With a focus on privacy, flexibility, and comfort, Brightest Luxury delivers bespoke living experiences. The platform ensures high-quality, luxurious stays that cater to both short- and long-term needs, presenting lucrative opportunities in the growing luxury rental market.
 
 ## Features
 - **Responsive & Unique Design:** Fully responsive design with a single-category focus, using React and CSS.
@@ -13,17 +13,16 @@ Brightest Luxury is a website designed to provide a seamless experience for mana
 - **Property Management:** CRUD operations for properties, detailed property pages, and protected routes.
 
 ## Technologies Used
-- React
-- Firebase
+- HTML
+- CSS
+- Javascipt
+- Node JS
+- My SQL
+- Python and its Frameworks suggesting affordable and best quality rentals
 - Tailwind CSS
   
-npm pakage:
+## Login Page![Screenshot 2024-12-28 221029](https://github.com/user-attachments/assets/5091af74-8571-4578-bb87-341fe5f99aba)
 
-- AOS Package
-- React-leaflet
-- React Hook form
-- Swiper slider
-## Login Page![Screenshot 2024-12-28 200324](https://github.com/user-attachments/assets/794ffa63-2d31-4b3a-a6c4-2679ac570116)
 ## Property Listing![Screenshot 2024-12-28 202044](https://github.com/user-attachments/assets/e5a1082a-6396-4e91-945d-ed2dd128d33b)
 
 
