@@ -23,6 +23,12 @@ npm pakage:
 - React-leaflet
 - React Hook form
 - Swiper slider
+## Login Page![Screenshot 2024-12-28 200324](https://github.com/user-attachments/assets/794ffa63-2d31-4b3a-a6c4-2679ac570116)
+## Property Listing![Screenshot 2024-12-28 202044](https://github.com/user-attachments/assets/e5a1082a-6396-4e91-945d-ed2dd128d33b)
+
+
+
+
   
 ## How to Run Locally
 1. Clone the repository: `https://github.com/Idba1/real-estate-project.git`
