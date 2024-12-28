@@ -1,4 +1,4 @@
-# Luxury Rentals
+# Technical Task1-Luxury Rentals
 
 Name of the Website : Brightest Luxury
 
